@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="baud_gen_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="baud_gen_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="980.800 ns"></ZoomStartTime>
+      <ZoomEndTime time="990.961 ns"></ZoomEndTime>
+      <Cursor1Time time="983.530 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="120"></NameColumnWidth>
+      <ValueColumnWidth column_width="108"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wave_markers>
+      <marker time="986864" label="" />
+      <marker time="983530" label="" />
+   </wave_markers>
+   <wvobject fp_name="/baud_gen_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/baud_gen_tb/rstn" type="logic">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/baud_gen_tb/dlh_dll" type="array">
+      <obj_property name="ElementShortName">dlh_dll[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dlh_dll[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDMAGRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/baud_gen_tb/mode_osl" type="logic">
+      <obj_property name="ElementShortName">mode_osl</obj_property>
+      <obj_property name="ObjectShortName">mode_osl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/baud_gen_tb/bclk" type="logic">
+      <obj_property name="ElementShortName">bclk</obj_property>
+      <obj_property name="ObjectShortName">bclk</obj_property>
+   </wvobject>
+</wave_config>
